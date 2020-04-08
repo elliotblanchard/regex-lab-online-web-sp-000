@@ -24,6 +24,6 @@ end
 
 def valid_phone_number?(phone)
   if phone.all? do |number|
-    text.scan(/\D?\d{3}\D?\d{3}\D?\d{4}\b/).length > 0
+    number.scan(/\D?\d{3}\D?\d{3}\D?\d{4}\b/).length > 0
   end
 end
