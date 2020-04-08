@@ -16,9 +16,6 @@ end
 
 def words_five_letters_long(text)
   if word.scan(/\A\w{5}\Z/i).length > 0
-    true
-  else
-    false
   end
 end
 
